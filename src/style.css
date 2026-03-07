@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #daf0fe;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 375px;
+  aspect-ratio: 375 / 800;
+  background-color: #17181A;
+  border-radius: 39px;
+  padding: 0 33px;
+}
+
+.calculation__display {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: white;
+  gap: 7px;
+  padding-top: 138px;
+}
+
+.calculation__display--action {
+  color: #109DFF;
+}
+
+.calculations {
+  position: relative;
+  color: #818181;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: -8px;
+}
+
+.calculation__result {
+  position: relative;
+  color: #FFFFFF;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.calculator__buttons {
+  padding-top: 78px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+  gap: 16px;
+}
+
+.calculator__btn {
+  background-color: transparent;
+  border: none;
+  color: #29A8FF;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  border-radius: 16px;
+  border: none;
+  background-color: #303136;
+  min-height: 60px;
+  min-width: 62px;
+}
+
+.buttons-right {
+  grid-column: 4;
+  grid-row: 2 / span 4;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calculator__btn--clear,
+.calculator__btn--delete {
+  font-size: 24px;
+  color: #A5A5A5;
+  background-color: #616161;
+  font-weight: 300;
+}
+
+.calculator__btn--divide,
+.calculator__btn--multiply,
+.calculator__btn--minus,
+.calculator__btn--plus {
+  background-color: #005DB2;
+  color: #339DFF;
+}
+
+.calculator__btn--equals {
+  background-color: #1991FF;
+  color: #B2DAFF;
+  flex: 1.5;
+}
+
+.calculator__btn--divide {
+  font-size: 24px;
+}
+
+.calculator__btn--plus {
+  flex: 1.5;
+}
+
+.calculator__btn--delete {
+  font-size: 36px;
+}
+
+.calculator__btn--zero {
+  grid-column: span 2;
+}
