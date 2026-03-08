@@ -8,33 +8,33 @@
 
 ## 👀 Preview
 <p align="center">
-      <img src="https://i.ibb.co/8nd2pLwt/todo.png" width="1920">
+      <img src="https://i.ibb.co/dJtB7L5s/calculator.png" width="1920">
 </p>
 
 
 ## 💡 About
-A simple and modern **Todo application** built with **HTML, CSS, JavaScript** and bundled with **Vite**.  
-This project helps you organize tasks, track your progress, and practice modern frontend development.
+A simple and modern **Calculator application** built with **HTML, CSS, JavaScript** and bundled with **Vite**.  
+This project allows you to perform basic arithmetic operations, explore advanced calculations, and practice modern frontend development.
 
 ## Features ✨
 
-- Add, edit, and delete tasks  
-- Mark tasks as completed  
-- Responsive design (works on desktop and mobile)  
-- Fast development and build with Vite  
+- Perform addition, subtraction, multiplication, and division
+- Clear and reset calculations
+- Responsive and modern design
+- Fast and lightweight thanks to Vite bundling
 
 ## Tech Stack 🛠
 
 - **HTML5** – markup  
 - **CSS3** – styling  
-- **JavaScript (ES6)** – logic and interactivity  
+- **TypeScript** – logic and interactivity  
 - **Vite** – development server and bundler  
 
 ## Installation & Run ⚙️
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/whymikey/todo.git
+git clone https://github.com/whymikey/calculator
 cd todo
 npm install
 npm run dev
