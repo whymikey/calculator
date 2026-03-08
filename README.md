@@ -21,7 +21,6 @@ This project allows you to perform basic arithmetic operations, explore advanced
 - Perform addition, subtraction, multiplication, and division
 - Clear and reset calculations
 - Responsive and modern design
-- Fast and lightweight thanks to Vite bundling
 
 ## Tech Stack 🛠
 
